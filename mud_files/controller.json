@@ -1,7 +1,7 @@
 {
   "ietf-mud:mud": {
     "mud-version": 1,
-    "mud-url": "https://digital-building.org/mud/bacnet_controller",
+    "mud-url": "https://digital-building.org/mud/controller",
     "last-update": "2018-09-23T20:43:36+02:00",
     "cache-validity": 48,
     "is-supported": true,
