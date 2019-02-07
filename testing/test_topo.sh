@@ -31,6 +31,9 @@ function generate_system {
 
 echo DAQ topologies test | tee -a $TEST_RESULTS
 
+# Ensure that all the ACLs have been generated
+bin/mudacl
+
 minimal_device_traffic="tcpdump -en -r inst/run-port-01/scans/monitor.pcap port 47808"
 minimal_device_bcast="$minimal_device_traffic and ether broadcast"
 minimal_device_ucast="$minimal_device_traffic and ether dst 9a:02:57:1e:8f:02"
