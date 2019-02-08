@@ -1,4 +1,4 @@
-Running ./testing/test_topo.sh
+Running testing/test_topo.sh
 Topology Tests
 Running minimal 3
 bacnet 01/02 1 0 1
