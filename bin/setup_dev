@@ -69,7 +69,7 @@ $PIP install --upgrade pip
 echo Installing python dependencies...
 $PIP install wheel
 $PIP install --upgrade --index-url=https://pypi.python.org/simple \
-    pylint cryptography requests netifaces codecov coverage \
+    pylint pyyaml cryptography requests netifaces codecov coverage \
     firebase-admin==2.11.0 google-cloud-pubsub==0.32.1
 
 $PIP freeze
