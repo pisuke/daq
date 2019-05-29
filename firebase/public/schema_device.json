@@ -13,7 +13,7 @@
     "process"
   ],
   "properties": {
-    "device_datasheets_folder": {
+    "device_datasheets_url": {
       "type": "string",
       "pattern": "^[^*]"
     },
@@ -29,13 +29,13 @@
       "type": "object",
       "additionalProperties": false,
       "patternProperties": {
-        "^[a-z]{3,12}$": {
+        "^[a-z_]{3,32}$": {
           "type": "string",
           "pattern": "^[^*]"
         }
       }
     },
-    "device_manuals_folder": {
+    "device_manuals_url": {
       "type": "string",
       "pattern": "^[^*]"
     },
