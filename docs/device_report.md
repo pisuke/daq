@@ -1,34 +1,36 @@
-# DAQ scan report for device 9a02571e8f00
-Started %% 2019-05-29 11:15:03+00:00
+# DAQ scan report for device 9a02571e8f01
+Started
 
 |  Role  |      Name              | Status |
 |--------|------------------------|--------|
-|Operator| Francesco Anselmo |        |
-|Approver| Trevor Pering |        |
+|Operator| *** Operator Name *** |        |
+|Approver| *** Approver Name *** |        |
 
-| Test report date | 2019-05-29T11:15:03.268Z |
-| DAQ version      | 0.9.7 |
-| Attempt number   | 1 |
+| Test iteration   |                        |
+|------------------|------------------------|
+| Test report date | XXX |
+| 
+| Attempt number   |  |
 
 ## Device Identification  
 
 | Device            | Entry              |
 |-------------------|--------------------|
-| Name              | WF-1 |
-| GUID              | N/A |
-| MAC addr          | 9a:02:57:1e:8f:00 |
-| Hostname          | N/A |
-| Type              | Telegraph |
-| Make              | Marconi Company |
-| Model             | Wireless Telegraph |
-| Serial Number     | N/A |
-| Firmware Version  | N/A |
+| Name              |  |
+| GUID              |  |
+| MAC addr          | 9a:02:57:1e:8f:01 |
+| Hostname          |  |
+| Type              |  |
+| Make              |  |
+| Model             |  |
+| Serial Number     |  |
+| Firmware Version  |  |
 
 ## Device Description
 
-![Image of device](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Marconi%27s_first_radio_transmitter.jpg/220px-Marconi%27s_first_radio_transmitter.jpg)
+![Image of device]()
 
-Guglielmo Marconi's first radio transmitter
+N/A
 
 
 ### Device documentation
@@ -42,21 +44,22 @@ Guglielmo Marconi's first radio transmitter
 |---|---|---|
 |skip|base.switch.ping||
 |pass|base.target.ping|target |
-|skip|network.brute||
+|fail|network.brute||
 |pass|security.ports.nmap||
 
 ## Module ping
 
 ```
 Baseline ping test report
-%% 35 packets captured.
+
 RESULT skip base.switch.ping
-RESULT pass base.target.ping target %% 10.20.59.37
+RESULT pass base.target.ping target
 ```
 
 ## Module nmap
 
 ```
+Allowing 10000 open tcp snet-sensor-mgmt
 No invalid ports found.
 RESULT pass security.ports.nmap
 ```
@@ -64,8 +67,16 @@ RESULT pass security.ports.nmap
 ## Module brute
 
 ```
-Target port 10000 not open.
-RESULT skip network.brute
+Username:manager
+Password:friend
+Login success!
+RESULT fail network.brute
+```
+
+## Module switch
+
+```
+LOCAL_IP not configured, assuming no network switch.
 ```
 
 ## Report complete
