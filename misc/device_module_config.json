@@ -1,5 +1,5 @@
 {
-  "device_datasheets_folder": "*** Device Datasheets Folder URL ***",
+  "device_datasheets_url": "*** Device Datasheets URL ***",
   "device_description": "*** Device Description ***",
   "device_image": "*** Device Image URL ***",
   "device_info": {
@@ -12,7 +12,7 @@
     "type": "*** Type ***",
     "firmware_version": "*** Firmware Version ***"
   },
-  "device_manuals_folder": "*** Device Manuals Folder URL ***",
+  "device_manuals_url": "*** Device Manuals URL ***",
   "modules": {
     "bacnet": {
       "enabled": true

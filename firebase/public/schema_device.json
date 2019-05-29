@@ -4,11 +4,11 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "additionalProperties": false,
   "required": [
-    "device_datasheets_folder",
+    "device_datasheets_url",
     "device_description",
     "device_image",
     "device_info",
-    "device_manuals_folder",
+    "device_manuals_urlr",
     "modules",
     "process"
   ],
