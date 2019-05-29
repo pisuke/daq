@@ -21,20 +21,70 @@ pri.flows
 pri.ofctl
 sec.flows
 sec.ofctl
-{
-  "brute": {
-    "enabled": true
-  },
-  "foobar": {
-    "enabled": false
-  },
-  "nmap": {
-    "enabled": true
-  },
-  "switch": {
-    "enabled": true
-  }
-}
 Redacted docs diff
-No report diff
+1c1
+< # DAQ scan report for device 9a02571e8f00
+---
+> # DAQ scan report for device 9a02571e8f01
+6,7c6,7
+< |Operator| Francesco Anselmo |        |
+< |Approver| Trevor Pering |        |
+---
+> |Operator| *** Operator Name *** |        |
+> |Approver| *** Approver Name *** |        |
+8a9,10
+> | Test iteration   |                        |
+> |------------------|------------------------|
+11c13
+< | Attempt number   | 1 |
+---
+> | Attempt number   |  |
+17,25c19,27
+< | Name              | WF-1 |
+< | GUID              | N/A |
+< | MAC addr          | 9a:02:57:1e:8f:00 |
+< | Hostname          | N/A |
+< | Type              | Telegraph |
+< | Make              | Marconi Company |
+< | Model             | Wireless Telegraph |
+< | Serial Number     | N/A |
+< | Firmware Version  | N/A |
+---
+> | Name              |  |
+> | GUID              |  |
+> | MAC addr          | 9a:02:57:1e:8f:01 |
+> | Hostname          |  |
+> | Type              |  |
+> | Make              |  |
+> | Model             |  |
+> | Serial Number     |  |
+> | Firmware Version  |  |
+29c31
+< ![Image of device](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Marconi%27s_first_radio_transmitter.jpg/220px-Marconi%27s_first_radio_transmitter.jpg)
+---
+> ![Image of device]()
+31c33
+< Guglielmo Marconi's first radio transmitter
+---
+> N/A
+45c47
+< |skip|network.brute||
+---
+> |fail|network.brute||
+59a62
+> Allowing 10000 open tcp snet-sensor-mgmt
+67,68c70,79
+< Target port 10000 not open.
+< RESULT skip network.brute
+---
+> Username:manager
+> Password:friend
+> Login success!
+> RESULT fail network.brute
+> ```
+> 
+> ## Module switch
+> 
+> ```
+> LOCAL_IP not configured, assuming no network switch.
 Done with tests
