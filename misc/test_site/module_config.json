@@ -13,7 +13,6 @@
   },
   "process": {
     "approver": "*** Approver Name ***",
-    "operator": "*** Operator Name ***",
-    "reviewer": "*** Reviewer Name ***"
+    "operator": "*** Operator Name ***"
   }
 }
