@@ -3,6 +3,8 @@
 |Operator| {{ process.operator }} |        |
 |Approver| {{ process.approver }} |        |
 
+| Test iteration   |                        |
+|------------------|------------------------|
 | Test report date | {{ run_info.started }} |
 | DAQ version      | {{ run_info.daq_version }} |
 | Attempt number   | {{ process.attempt_number }} |
@@ -30,5 +32,5 @@
 
 ### Device documentation
 
-[Device datasheets]({{device_datasheets_folder}})
-[Device manuals]({{device_manuals_folder}})
+[Device datasheets]({{ device_datasheets_url }})
+[Device manuals]({{ device_manuals_url }})
