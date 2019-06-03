@@ -1,4 +1,7 @@
 {
+  "device_datasheets_url": "*** Device Datasheets URL ***",
+  "device_description": "*** Device Description ***",
+  "device_image": "*** Device Image URL ***",
   "device_info": {
     "guid": "*** GUID ***",
     "hostname": "*** Network Hostname ***",
@@ -7,14 +10,24 @@
     "name": "*** Name ***",
     "serial": "*** Serial ***",
     "type": "*** Type ***",
-    "version": "*** Version ***"
+    "firmware_version": "*** Firmware Version ***"
   },
+  "device_manuals_url": "*** Device Manuals URL ***",
   "modules": {
-    "switch": {
+    "bacnet": {
       "enabled": true
     },
-    "foobar": {
-      "enabled": false
+    "brute": {
+      "enabled": true
+    },
+    "mudgee": {
+      "enabled": true
+    },
+    "nmap": {
+      "enabled": true
+    },
+    "switch": {
+      "enabled": true
     }
   },
   "ports": {
@@ -24,5 +37,8 @@
         "reason": "Administrative Web-Server"
       }
     }
+  },
+  "process": {
+     "attempt_number": 1,
   }
 }

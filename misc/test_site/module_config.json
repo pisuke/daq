@@ -1,5 +1,4 @@
 {
-  "device_description": "N/A",
   "modules": {
     "brute": {
       "enabled": true
