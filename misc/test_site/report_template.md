@@ -9,7 +9,7 @@
 | DAQ version      | {{ run_info.daq_version }} |
 | Attempt number   | {{ process.attempt_number }} |
 
-## Device Identification  
+## Device Identification
 
 | Device            | Entry              |
 |-------------------|--------------------|
