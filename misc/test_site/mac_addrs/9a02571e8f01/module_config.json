@@ -14,13 +14,7 @@
   },
   "device_manuals_url": "*** Device Manuals URL ***",
   "modules": {
-    "bacnet": {
-      "enabled": true
-    },
     "brute": {
-      "enabled": true
-    },
-    "mudgee": {
       "enabled": true
     },
     "nmap": {

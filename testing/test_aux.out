@@ -36,8 +36,5 @@ sec.ofctl
   }
 }
 Redacted docs diff
-15c15
-< ## Device Identification  
----
-> ## Device Identification
+No report diff
 Done with tests
