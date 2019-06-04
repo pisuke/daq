@@ -22,14 +22,11 @@ pri.ofctl
 sec.flows
 sec.ofctl
 {
-  "bacnet": {
-    "enabled": true
-  },
   "brute": {
     "enabled": true
   },
-  "mudgee": {
-    "enabled": true
+  "foobar": {
+    "enabled": false
   },
   "nmap": {
     "enabled": true
@@ -39,5 +36,8 @@ sec.ofctl
   }
 }
 Redacted docs diff
-No report diff
+15c15
+< ## Device Identification  
+---
+> ## Device Identification
 Done with tests
