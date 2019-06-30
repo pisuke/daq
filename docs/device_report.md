@@ -42,7 +42,6 @@
 [Device datasheets](*** Device Datasheets URL ***)
 [Device manuals](*** Device Manuals URL ***)
 
-
 ## Report summary
 
 Overall device result FAIL
@@ -134,3 +133,4 @@ RESULT skip cloud.udmi.pointset No device id.
 ```
 
 ## Report complete
+
