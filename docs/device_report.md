@@ -12,7 +12,7 @@
 | Test             |                        |
 |------------------|------------------------|
 | Test report start date | 2019-06-29 21:30:06+00:00 |
-| Test report end date   | 2019-06-29 21:37:30+00:00    |
+| Test report end date   | 2019-06-29 21:37:30+00:00 |
 | DAQ version      | 1.0.1 |
 | Attempt number   | 1 |
 

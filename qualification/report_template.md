@@ -12,7 +12,7 @@
 | Test             |                        |
 |------------------|------------------------|
 | Test report start date | {{ start_time }} |
-| Test report end date   | {{ end_time}}    | 
+| Test report end date   | {{ end_time}} |
 | DAQ version      | {{ run_info.daq_version }} |
 | Attempt number   | {{ process.attempt_number }} |
 
@@ -41,4 +41,3 @@
 
 [Device datasheets]({{ device_datasheets_url }})
 [Device manuals]({{ device_manuals_url }})
-
