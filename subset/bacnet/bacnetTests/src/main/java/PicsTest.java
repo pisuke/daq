@@ -13,9 +13,9 @@ public class PicsTest {
   private BacnetValidation validator;
   private BacnetPoints bacnetPoints = new BacnetPoints();
   private String testName = "protocol.bacnet.pic";
-  private String passedTestReport = String.format("RESULT pass %s\n", testName);
-  private String failedTestReport = String.format("RESULT fail %s The device does not match the PICS\n", testName);
-  private String skippedTestReport = String.format("RESULT skip %s Bacnet device not found.", testName);
+  private String passedTestReport = String.format("RESULT pass %s The BACnet protocol implementation from the device under testing does matches the PIC statement.\n", testName);
+  private String failedTestReport = String.format("RESULT fail %s the BACnet protocol implementation from the device under testing does not match the PIC statement.\n", testName);
+  private String skippedTestReport = String.format("RESULT skip %s BACnet device not found.", testName);
   private String reportAppendix = "";
   private String additionalReportAppendix = "";
   private Csv csv;
